@@ -1,0 +1,322 @@
+/* start general */
+@media screen and (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+
+/* end general */
+/* start of nav section */
+@media screen and (max-width: 1200px){
+    #home .nav .container .nav-bar .bars{
+        display:block;
+    }
+    #home .nav .container .nav-bar .dark-mode{
+        margin-left: auto;
+        margin-right: 15px;
+    }
+    #home .nav .container .nav-bar .navs{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        width: 30%;
+        background-color: aqua;
+        gap: 0;
+        z-index: 999;
+        padding-top: 45px;
+        display: none;
+    }
+    #home .nav .container .nav-bar ul li{
+        padding: 15px;
+        width: 100%;
+    }
+}
+
+/* end of nav section */
+
+/* start of home section */
+@media screen and (max-width: 1200px){
+    .container{
+        width: 100%;
+    }
+    #home-page{
+        height: auto;
+        margin-top: 90px;
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #home-page .container {
+        flex-direction: column;
+    }
+
+    #home-page {
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    #home-page .container {
+        flex-direction: column-reverse;
+        margin-top: 100px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    #home-page .container .home-item {
+        width: 100%;
+    }
+
+    #home-page .container .home-item .home-btn .home-btn1 {
+        border-radius: 100vh 100vh;
+    }
+
+    #home-page .container .home-item .home-btn {
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    #home-page .container .home-btn {
+        flex-direction: column;
+        /* gap: 20px; */
+    }
+}
+
+/* end of home section */
+
+/* ------------------------------------------------------------------ */
+
+/* start of chefs section */
+@media screen and (max-width: 1200px){
+    #chefs .container .chefs-content {
+        align-items: unset;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #chefs .container .chefs-content {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    #chefs .container .chefs-content .chefs-item {
+        width: calc(50% - 15px);
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    #chefs .container .chefs-content {
+        flex-direction: column;
+        gap: 30px 0;
+    }
+
+    #chefs .container .chefs-content .chefs-item {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+}
+/* end of chefs section */
+
+/* ---------------------------------------------------------- */
+
+/* start of gallery section */
+@media screen and (max-width: 1200px){
+    #gallery .container .gallery-content{
+        height: 880px;
+    }
+}
+@media screen and (max-width: 768px) {
+    #gallery .container .gallery-content {
+        height: auto;
+    }
+
+    #gallery .container .gallery-content .gallery-item {
+        width: 100%;
+    }
+
+    #gallery .container .gallery-content .gallery-item .img-content {
+        padding: 0 5px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #gallery .container .gallery-content .gallery-item {
+        width: calc(50% - 20px);
+    }
+
+    #gallery .container .gallery-content {
+        height: 1400px;
+    }
+
+    .pizza {
+        order: 0;
+    }
+
+    .burger {
+        order: 1;
+    }
+
+    .levitation {
+        order: 2;
+    }
+
+    .frittata {
+        order: 3;
+    }
+
+    .beef {
+        order: 4;
+    }
+
+    .chicken {
+        order: 5;
+    }
+
+    .kebab {
+        order: 6;
+    }
+}
+
+
+/* end of gallery section */
+/* start of contact section */
+@media screen and (max-width: 768px) {
+    #contact .container .contact-content .contact-info {
+        flex-direction: column;
+    }
+
+    #contact .container .contact-content .contact-info .contact-item {
+        width: 100%;
+    }
+
+    #contact .container .contact-content .contact-info .contact-item .contact-text {
+        width: 85%;
+    }
+
+    #contact .container .contact-form .form-item1 {
+        width: 100%;
+        display: block;
+    }
+
+    #contact .container .contact-form .form-item2 {
+        width: 100%;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #contact .container .contact-form .form-item1 {
+        width: 100%;
+        display: block;
+    }
+
+    #contact .container .contact-form .form-item2 {
+        width: 100%;
+        display: block;
+    }
+}
+
+
+
+
+
+/* end of contact section */
+/* start of footer secton */
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .footer .container {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .footer .container .footer-meal {
+        width: calc(calc(100% - 30px) / 2);
+    }
+
+    .footer .container .footer-get {
+        width: calc(calc(100% - 30px) / 2);
+
+    }
+
+    .footer .container .footer-news {
+        width: 100%;
+        order: 1;
+    }
+    .footer .container .footer-news .footer-input {
+        padding-bottom: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .footer .container {
+        flex-direction: column;
+    }
+
+    .footer .container .footer-meal {
+        width: 100%;
+    }
+
+
+
+    .footer .container .footer-get {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .footer .container .footer-news .footer-input {
+        flex-direction: column;
+    }
+
+    .footer .container .footer-news .footer-input input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer .container .footer-news .footer-input button {
+        width: 100%;
+    }
+}
+
+
+/* end of footer section */
